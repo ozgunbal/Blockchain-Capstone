@@ -1,36 +1,52 @@
-pragma solidity >=0.4.21 <0.6.0;
+// SPDX-License-Identifier: Unlicense
+pragma solidity ^0.8.0;
 
-// TODO define a contract call to the zokrates generated solidity contract <Verifier> or <renamedVerifier>
+import "./ERC721Mintable.sol";
+import "./SquareVerifier.sol";
 
+interface ISquareVerifier {
+    struct Proof {
+        Pairing.G1Point a;
+        Pairing.G2Point b;
+        Pairing.G1Point c;
+    }
+    function verifyTx(Proof memory proof, uint[1] memory input) external view returns (bool r);
+}
 
+contract SolnSquareVerifier is ERC721MintableComplete {
+    event SolutionAdded(Solution solution, bytes32 solutionKey);
 
-// TODO define another contract named SolnSquareVerifier that inherits from your ERC721Mintable class
+    ISquareVerifier verifier;
 
+    struct Solution {
+        uint256 index;
+        address solutionAddress;
+    }
 
+    mapping (bytes32 => Solution) uniqueSolutions;
 
-// TODO define a solutions struct that can hold an index & an address
+    constructor (address verifierAddress) ERC721MintableComplete() {
+        verifier = ISquareVerifier(verifierAddress);
+    }
 
+    function _addSolution(uint256 _index, address _solutionAddress, bytes32 solutionKey) internal {
+        Solution memory solution = Solution({
+            index: _index,
+            solutionAddress: _solutionAddress
+        });
+        uniqueSolutions[solutionKey] = solution;
 
-// TODO define an array of the above struct
+        emit SolutionAdded(solution, solutionKey);
+    }
 
-
-// TODO define a mapping to store unique solutions submitted
-
-
-
-// TODO Create an event to emit when a solution is added
-
-
-
-// TODO Create a function to add the solutions to the array and emit the event
-
-
-
-// TODO Create a function to mint new NFT only after the solution has been verified
-//  - make sure the solution is unique (has not been used before)
-//  - make sure you handle metadata as well as tokenSuplly
-
-  
+    function mintWithProof (address to, uint256 tokenId, ISquareVerifier.Proof memory proof, uint[1] memory input) public returns (bool) {
+        bytes32 solutionKey = keccak256(abi.encodePacked(proof.a.X, proof.a.Y, proof.b.X, proof.b.Y, proof.c.X, proof.c.Y, input));
+        require(uniqueSolutions[solutionKey].solutionAddress == address(0), "Solution is not unique");
+        require(verifier.verifyTx(proof, input), "Solution is not verified");
+        _addSolution(tokenId, to, solutionKey);
+        return super.mint(to, tokenId);
+    }
+}
 
 
 
