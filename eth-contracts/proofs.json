@@ -1,0 +1,272 @@
+[
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x22f63184af0758d8fe8172779ea532103e3b5d3687f729a4b39a4271c8b212e1",
+        "0x3053331dcc593744286918dd638fbfaf005a66ded1a71770278f46db9792f5aa"
+      ],
+      "b": [
+        [
+          "0x012b6a4d22c6bac82237853acbe1ee4bb588254bcbaa0f89e9518a08aa6fc870",
+          "0x28da34e9d546b8261db79e7afeca22472bb8f97d4f98ba8398d59eefe21a248b"
+        ],
+        [
+          "0x226e786b22610f0689970689255d0e3b03988beb22a3da25da7877764d4f0630",
+          "0x0e54ec85bbeba97f2c4e5793b1f87dd0a8dc86d4490a8dd97998df80036cb52d"
+        ]
+      ],
+      "c": [
+        "0x0d97decb23be682862d2214c235b2751066dafc8765f5793349a9545048863e9",
+        "0x279851f8c8d29c938c8c362ecdda773e9775c9c66a3a289a3893b23ae0f3b064"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x256988f5f1beb64d24d5ed6e729223701c23dd9fd70d4f0ad6a580836e98b381",
+        "0x0d8bcb0740b4728f0db3d1f0966593d85239453958f80e0f11e7948483ba956b"
+      ],
+      "b": [
+        [
+          "0x297ae47324fb946d0112ff3d416a99f6aac006d5d332dcfe5f162d26ed6f54a4",
+          "0x0fa1d7a134493b7aa8ab62d1b89d39ee54c3749dc8236f5f66fbfaca98368d66"
+        ],
+        [
+          "0x23d4ea1c3060bfee86b298ad75768dde51f04060d1071de5f600dc2795bed040",
+          "0x0d4b08b7fbab2214f2b5ce2a091a23aa73fe73e18b79184da134efb2f7b88725"
+        ]
+      ],
+      "c": [
+        "0x0375f11e998f1ef30448f51d902106058dfd9646d0dd14077d19ad66805b0786",
+        "0x06ff495d50f453bd698480f75b3faf5ac3ae2845f516bcfc9890faae7a92253b"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x298148ad86d62454440731550d4757e89738e42e5e100edd264f1c0f40912cd6",
+        "0x2d1ef4e9d8f767df32991bf880936b68e5702a078b8db14ea212c30f5b415c29"
+      ],
+      "b": [
+        [
+          "0x13d0eb0878629edc0f1a2235844f1d91adc1c1a1d8c2572f3d041d81abc5ff0b",
+          "0x17b2b2712d0c95862175fa2f297543f0295be55a4d8150405f82a183b6283e53"
+        ],
+        [
+          "0x2605d830afdc726796f97572a7f19bd1339db034e7d90533c589ed87e45f82ab",
+          "0x12b9a844e065b2a405a3612164fe975d30f48dbe71daceae709224bb32a421ac"
+        ]
+      ],
+      "c": [
+        "0x2b9d269b7b1470dff66cc8cee0be966a4bb59f372a42180aa06c6b722563f63a",
+        "0x08132c4e9c0759f6fa20119b11050f152f13cf7ec540c2c26876d76357198c18"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x0e88e698ffd586f8d054006436797e2b7e9138fe64f3758b12e8f34a5bb7774a",
+        "0x2b23f26f167b3c536d4a17187e0e6dc7072a062f9e03a2e6145eeba285009f40"
+      ],
+      "b": [
+        [
+          "0x2370983f4f57cd73a614ce03b06c1af40e5ba2ebf100c1077006b17850ae25d1",
+          "0x20323c912a808b0dffb1e80ee5e095d3eec66bf385b373ab24b86c13a069756f"
+        ],
+        [
+          "0x287235d88066dae8386aeb8b3d495628ad12eeaeda49a950bfcb2fa380281a73",
+          "0x244b754540efa433546f1e6c1ab99d1db3e890d5fbd92a020ccd35e16c908fad"
+        ]
+      ],
+      "c": [
+        "0x15d71a297536854e24f258ee74cf07dc2769341746fe8bcde5305f83342c553c",
+        "0x0d8c8e18073343049761fc7d61e8a9e2d10b456bf339e02b63b69b361d55b2b6"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x05afd4d9677c8e4f229862e375f304938584d151c22b409911408d1cd70378c2",
+        "0x1887ec80f80b426cb122ee3e12702b2374a26b6787ff8c82a0f8caf16b27d2eb"
+      ],
+      "b": [
+        [
+          "0x1062274ee426ea89d4e5553051c00d3d25abf02191260d504e7cd730ca3507cf",
+          "0x11bed1bc69fa041d4157be0f6e269fe63c20da0f7bf7eb9bec5f197c5f3d1dde"
+        ],
+        [
+          "0x0b06abd7a7b6b9425bd67e720d3a077c24b4b1c64c4b0b3444f499005401d6c6",
+          "0x0c50986b359c3e0fd84267e4cc3ad65446955c24b43ce9a23babebf1cdf3ae9b"
+        ]
+      ],
+      "c": [
+        "0x1e53164479e0bd2c429ab8eac252e680bde65818eaf13a7f539870c23a337406",
+        "0x1e9b97e1388ddab5b2b3b5a6151b012429e5b47af65fbadf5f0b4c9cae9067c6"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x161bdfc459ab7dcd9ce8647b9b0698987a94203d3f3e92c5706a999340120766",
+        "0x2e844c2c0f1d717d1871323eb95abdf6d1c3f5ba0da0c75751a23683aae332d7"
+      ],
+      "b": [
+        [
+          "0x02f822287759551952da9e1d1c085b9ef49f14c885ab1ba2c4f064bde325f3b4",
+          "0x036f238f0bbe999a0e6ad2b07e9e12305748794be69b50f3ab4c9e1391930417"
+        ],
+        [
+          "0x1249b7f196f229338f6b4f2566fe46120c13f62be31bfedd268ee1e3b306c5c6",
+          "0x2a2f5632ef230f291822a6e1a98f841a73e4ccc3d1d1564cbcf4da93b7aa9f16"
+        ]
+      ],
+      "c": [
+        "0x2a2cc3cd4b3f98fe62eaef6ff132e9cb820c35c3aa735911bd5e564a34dea65e",
+        "0x2fd5eb1e9d6f0c0449480df2dffc53a914ef7d48f509d73b0fd322b850ac5dc7"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x2cb1eadeb75ad3012aaf706a5a14d1825bdf824298c7a30c03074e46e14d2772",
+        "0x2be8595050e52622831b38d55a8d4e71b20746412cdb815bb49a85c31c1f7bd1"
+      ],
+      "b": [
+        [
+          "0x2c2de1ecea8f9b2c5b0ffb691f48047a856360819a2df7e508fb722d75014c4c",
+          "0x20266f25b6d636df7de5c82ff9f1e7e1addfcc64da1b07f0d1fab620ed932aa6"
+        ],
+        [
+          "0x28504f347439210976df2b7fd93286ee0c7e5ea9873bb1973deef328bd3d2e16",
+          "0x0bff4ce56604a1128a561dd9b02bf19f6da24682b9e6247d741606c0c2ca2c52"
+        ]
+      ],
+      "c": [
+        "0x2346f115c5768048e0e7721a8dd3d3a48991f316d94aefdbe55bcfd0f37d9852",
+        "0x09080bcf66b58437cb83c751475d27212fbd4421825962fa3ad06d068b5d7791"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x1f0473d4bd9fea935346fbf7a302178acca482a0b46f18ce7c074e338e60d872",
+        "0x04fd27a15b2c3b4fac72fb97ce507d68e27e4c170ff22a1fa09bc98fe99ae081"
+      ],
+      "b": [
+        [
+          "0x075bd0dc5e0237ad123081503b159fcc80084526e2b328a9cc8cb5c1b9d0f0c0",
+          "0x2f8f2819e90b4ef09819a2888f1bdc09036b66fb708684531225ba28075b6f5b"
+        ],
+        [
+          "0x2fd12341b6e3816eb6f996827ff17f35ef100d371fc2bfdd66b2b2d5174247b1",
+          "0x0195bf806d2693bcc6f46ce2db15a13df85df06ebafa9d34d11adaccb594cfc2"
+        ]
+      ],
+      "c": [
+        "0x27041644a6dd09920b82ad94928a0c80c8eff4291b8ef53faa036ba78bf9a78d",
+        "0x111e4c494989637046aa6ba024a830ded57de9fd73efea7719b8c933ff1ad05d"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x07929a6376e2d76aa469dc9cd5da6cf953453a71baf4a85e9ef9cd3f6bca721d",
+        "0x09a87bc9a911ef7e0fa27b99b4987a16490882d477e882f58d2c03c6ac9b560d"
+      ],
+      "b": [
+        [
+          "0x206fe1222c96f1d5643edb1293ccff7b6ab73f43546b4fc96db26378c27250b7",
+          "0x2e8d706375a8aa313aaee4fdcbce798f5d5f34c7dc46ef85cb450eaf66591250"
+        ],
+        [
+          "0x2b4abb48309e0ea68576078bfd8141f9a8097b36eddb144a0137d8d5e6843eb8",
+          "0x26aef4b61dc4cdf991904766ff589bbe22dd24ed8a07b43a6f6e7e0639c512c9"
+        ]
+      ],
+      "c": [
+        "0x2ffdde87bba46a71079429aa04ae6fc09053cb75e760c740954ce6c9c78e898a",
+        "0x054a631315ead8d709b3eeb6d134f5a6050c1789d2badb3127c3410bfaacfafb"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  },
+  {
+    "scheme": "g16",
+    "curve": "bn128",
+    "proof": {
+      "a": [
+        "0x1ad995d492b327cd555fcd44859d462fc3b744cbe80a462386832a34c60669aa",
+        "0x1192f279fc27fac660c5368bab39c5ec87fa6caef55616e5c2812c61b70330d4"
+      ],
+      "b": [
+        [
+          "0x2f21a4484b6301c84f1e49c8fd6a8746c4b19ae07f92382870aacbf982a264f8",
+          "0x2099cacae2784cbe174001060a964a083b7057379d03760dc846d10741d23026"
+        ],
+        [
+          "0x21b2a88c6fb6408928bdb35c7d0e695306ffdaacb01f329063bef6f125ac5d7a",
+          "0x1e601a15e67d8ec71b96ea85ecb52e77144900b77b3e247f021896c97ed38a70"
+        ]
+      ],
+      "c": [
+        "0x1f75922b0b79102415850f1a09a64175af0333779cd844e2ab71fed336357ec2",
+        "0x14791c05cc6a4df7afb67555fc2b65a02034eedb1ea9fd5eed46fca02bf46e1b"
+      ]
+    },
+    "inputs": [
+      "0x0000000000000000000000000000000000000000000000000000000000000004"
+    ]
+  }
+]
